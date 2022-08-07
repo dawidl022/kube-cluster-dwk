@@ -4,3 +4,10 @@ metadata:
   name: prometheus
   labels:
     name: prometheus
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: project
+  labels:
+    name: project
