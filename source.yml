@@ -7,4 +7,4 @@ spec:
   interval: 10m
   url: https://github.com/dawidl022/mooc-fi-kubernetes
   ref:
-    branch: master
+    branch: main
