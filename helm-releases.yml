@@ -1,0 +1,15 @@
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: nats
+  namespace: project
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: ./helm-repositories.yml
+      sourceRef:
+        kind: HelmRepository
+        name: nats
+        namespace: project
+      interval: 1m
