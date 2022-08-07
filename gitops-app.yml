@@ -8,6 +8,6 @@ spec:
     kind: GitRepository
     name: dwk-repo
   interval: 10m
-  path: ./todo
+  path: todo
   prune: true
   validation: client
