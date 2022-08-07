@@ -8,6 +8,7 @@ spec:
   chart:
     spec:
       chart: ./helm-repositories.yml
+      version: "0.7.x"
       sourceRef:
         kind: HelmRepository
         name: nats
